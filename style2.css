@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #121212;
+    color: white;
+}
+
+/* Navigation Bar */
+header {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    background: #181818;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li:first-child a {
+    color: #27a7ff;
+    font-weight: bold;
+}
+
+/* Biography Section */
+.biography {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10%;
+    position: relative;
+    min-height: 100vh;
+}
+
+.bio-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+/* Profile Image */
+.bio-image img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.bio-image img:hover {
+    transform: scale(1.05);
+}
+
+/* Biography Content */
+.bio-content {
+    max-width: 600px;
+}
+
+.bio-content h2 {
+    font-size: 32px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.bio-content p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #bbb;
+}
+
+.bio-content h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+/* Skill & Interest */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skills span {
+    padding: 8px 16px;
+    border: 2px solid #27a7ff;
+    border-radius: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #27a7ff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.skills span:hover {
+    background: #27a7ff;
+    color: #121212;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #aaa;
+    font-size: 14px;
+    border-top: 1px solid #333;
+}

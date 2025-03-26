@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #121212;
+    color: white;
+}
+
+/* Header Navigation */
+header {
+    background: #181818;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li:last-child a {
+    color: #27a7ff;
+    font-weight: bold;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 80px 10%;
+}
+
+.contact h2 {
+    font-size: 36px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.subtext {
+    font-size: 16px;
+    color: #27a7ff;
+    margin-bottom: 50px;
+}
+
+/* Contact Information */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    text-align: center;
+    max-width: 250px;
+}
+
+.contact-item i {
+    font-size: 40px;
+    color: #27a7ff;
+    margin-bottom: 10px;
+}
+
+.contact-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.contact-item p {
+    font-size: 14px;
+    color: #bbb;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 40px 10px;
+    border-top: 1px solid #333;
+}
+
+.footer-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.2);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+footer p {
+    color: #aaa;
+    font-size: 14px;
+}
